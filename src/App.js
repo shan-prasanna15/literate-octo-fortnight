@@ -7,10 +7,9 @@ import TestComponent from './Components/TestComps/TestComponent'
 function App() {
   return (
     <div className="App">
-      <TestComponent />
-      {/* <Header />
+      <Header />
       <MainCont />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
