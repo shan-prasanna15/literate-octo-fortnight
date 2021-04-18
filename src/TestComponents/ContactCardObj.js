@@ -1,7 +1,8 @@
 import React from 'react';
 import './../App.css'
 
-function ContactCardObj(){
+function ContactCardObj(props){
+    console.log(props)
     return (
         <div className = 'App'>
             <img src="http://placekitten.com/300/200"/>
