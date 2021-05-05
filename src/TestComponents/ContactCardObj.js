@@ -5,10 +5,10 @@ function ContactCardObj(props){
     console.log(props)
     return (
         <div className = 'App'>
-            <img src="http://placekitten.com/300/200"/>
-            <h3>Mr. Whiskerson</h3>
-            <p>Phone: (212) 555-1234</p>
-            <p>Email: mr.whiskaz@catnap.meow</p>
+            <img className='App-img' src={props.imgUrl}/>
+            <h3>{props.name}</h3>
+            <p>{props.name}</p>
+            <p>{props.email}</p>
         </div>
     )
 }
